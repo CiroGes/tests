@@ -28,7 +28,7 @@
             <input type="text" name="text" class="form-control" id="text" placeholder="Algún texto">
           </div>
 
-          <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+          <button type="submit" class="btn btn-primary pull-right">Envialo Papa</button>
 
           {!! Form::close() !!}
         </div>

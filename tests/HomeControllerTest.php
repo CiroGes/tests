@@ -20,7 +20,7 @@ class HomeControllerTest extends TestCase {
   * @test
   */
   public function form_is_working() {
-    $text = 'este es un texto';
+    $text = 'este es un texto pichon';
 
     $this->visitRoute('form')
          ->type($text, 'text')
