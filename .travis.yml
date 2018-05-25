@@ -9,3 +9,6 @@ before_script:
 
 script:
   - vendor/bin/phpunit
+
+ notifications:
+    slack: ahgiles:oJwO2Mq7n5V8qmftu2RrtKIb  
