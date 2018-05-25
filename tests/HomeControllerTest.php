@@ -13,7 +13,7 @@ class HomeControllerTest extends TestCase {
    */
   public function hello_world_founded() {
     $this->visitRoute('index')
-         ->see('hello world');
+         ->see('hello mundo');
   }
 
   /**
