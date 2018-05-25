@@ -24,7 +24,7 @@ class HomeControllerTest extends TestCase {
 
     $this->visitRoute('form')
          ->type($text, 'text')
-         ->press('Envialo Papi')
+         ->press('Envialo Test.')
          ->see($text);
   }
 }
