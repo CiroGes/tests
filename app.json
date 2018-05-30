@@ -1,0 +1,21 @@
+{
+  "name": "tests",
+  "description": "Archivo de configuración para AppReviews en Heroku pipeline",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
