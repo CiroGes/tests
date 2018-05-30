@@ -19,6 +19,7 @@
     <div class="container">
       <div class="col-sm-12">
         <h1 class="text-center">Hello Mundo!</h1>
+        <h2 class="text-center">Cambio para testear pipelines</h1>
 
 
       </div>
