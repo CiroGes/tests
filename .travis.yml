@@ -24,6 +24,3 @@ jdk:
   - oraclejdk8
 script:
   - sonar-scanner
-cache:
-  directories:
-    - '$HOME/.sonar/cache'
