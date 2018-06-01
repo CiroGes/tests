@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //Para subir o hacer un commit descomentar
         \URL::forceSchema('https');
     }
 
