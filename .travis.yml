@@ -11,6 +11,7 @@ before_script:
 
 script:
   - vendor/bin/phpunit
+  - sonar-scanner
 
 notifications:
   slack: ahgiles:oJwO2Mq7n5V8qmftu2RrtKIb
@@ -22,5 +23,3 @@ addons:
       secure: 7269aada01e4b77f19f372f4809c085ad8018d83
 jdk:
   - oraclejdk8
-script:
-  - sonar-scanner
