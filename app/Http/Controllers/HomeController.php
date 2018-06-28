@@ -7,9 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller {
 
   public function index() {
-      if (true) {
-          return view('index');
-      }
+      return view('index');
   }
 
   public function form() {
