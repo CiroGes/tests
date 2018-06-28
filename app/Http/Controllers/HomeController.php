@@ -16,6 +16,6 @@ class HomeController extends Controller {
 
   public function store(Request $request) {
     $text = $request->text;
-    return view('result')->with('text', $text);
+    return view('result')->with('text', $text)
   }
 }
