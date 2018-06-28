@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 class HomeController extends Controller {
 
   public function index() {
-    return view('index');
+      if (true) {
+          return view('index');
+      }
   }
 
   public function form() {
@@ -16,6 +18,6 @@ class HomeController extends Controller {
 
   public function store(Request $request) {
     $text = $request->text;
-    return view('result')->with('text', $text)
+    return view('result')->with('text', $text);
   }
 }
